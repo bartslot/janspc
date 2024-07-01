@@ -1,0 +1,10 @@
+{
+    "contact": "Mama",
+    "messages": [
+        {"timestamp": "2024-01-04T18:00:00", "sender": "Mama", "message": "Jan, heb je al gegeten?"},
+        {"timestamp": "2024-01-04T18:05:00", "sender": "Jan", "message": "Ja, ik heb net wat gegeten. Jij?"},
+        {"timestamp": "2024-01-04T18:10:00", "sender": "Mama", "message": "Ja, papa heeft gekookt. Heb je zin om zondag langs te komen?"},
+        {"timestamp": "2024-01-04T18:15:00", "sender": "Jan", "message": "Ja, lijkt me leuk. Tot zondag! Woopwoooop!"},
+        {"timestamp": "2024-01-04T18:20:00", "sender": "Mama", "message": "Gezellig! Tot dan."}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "contact": "Babs",
+    "messages": [
+        {"timestamp": "2024-01-05T10:00:00", "sender": "Babs", "message": "Jan, heb je dat nieuwe boek al gelezen?"},
+        {"timestamp": "2024-01-05T10:05:00", "sender": "Jan", "message": "Nee, nog niet. Is het goed?"},
+        {"timestamp": "2024-01-05T10:10:00", "sender": "Babs", "message": "Ja, het is echt spannend. Je moet het lezen!"},
+        {"timestamp": "2024-01-05T10:15:00", "sender": "Jan", "message": "Ik zal het zeker lezen. Bedankt voor de tip! Woopwoooop!"},
+        {"timestamp": "2024-01-05T10:20:00", "sender": "Babs", "message": "Geen probleem, veel leesplezier!"}
+    ]
+}

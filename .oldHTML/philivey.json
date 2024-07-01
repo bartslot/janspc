@@ -1,0 +1,12 @@
+{
+    "contact": "Phil Ivey",
+    "messages": [
+        {"timestamp": "2024-01-03T20:00:00", "sender": "Jan", "message": "Hey Phil, how are you?"},
+        {"timestamp": "2024-01-03T20:05:00", "sender": "Phil Ivey", "message": "Hey Jan, I'm good. How about you?"},
+        {"timestamp": "2024-01-03T20:10:00", "sender": "Jan", "message": "I'm great. Are you up for a game this weekend?"},
+        {"timestamp": "2024-01-03T20:15:00", "sender": "Phil Ivey", "message": "Sure, sounds good. Where and when?"},
+        {"timestamp": "2024-01-03T20:20:00", "sender": "Jan", "message": "Let's do it at my place on Saturday at 7 PM."},
+        {"timestamp": "2024-01-03T20:25:00", "sender": "Phil Ivey", "message": "Perfect, see you then."},
+        {"timestamp": "2024-01-03T20:30:00", "sender": "Jan", "message": "Woopwoooop! Can't wait!"}
+    ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 7 Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-screen">
+        <div id="login-box">
+            <div id="profile-box">
+                <img src="profile-pic.png" alt="Profile Picture">
+                <p>User</p>
+            </div>
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">></button>
+            <p id="message" style="color: red;"></p>
+        </div>
+    </div>
+    <div id="desktop" style="display: none;">
+        <div id="explorer-window">
+            <div class="title-bar">
+                <span class="title">File Manager</span>
+            </div>
+            <div class="content">
+                <div class="file">
+                    <img src="image-icon.png" alt="Image Icon">
+                    <p>Image1.jpg</p>
+                </div>
+                <div class="file">
+                    <img src="image-icon.png" alt="Image Icon">
+                    <p>Image2.jpg</p>
+                </div>
+                <div class="file">
+                    <img src="audio-icon.png" alt="Audio Icon">
+                    <p>Audio1.mp3</p>
+                </div>
+            </div>
+        </div>
+        <div id="taskbar">
+            <div id="start-button">Start</div>
+            <div id="taskbar-icons">
+                <!-- Taskbar icons can go here -->
+            </div>
+            <div id="system-tray">
+                <!-- System tray icons can go here -->
+            </div>
+        </div>
+        <div id="whatsapp-icon" onclick="openWhatsApp()">
+            <img src="whatsapp-icon.png" alt="WhatsApp Icon">
+        </div>
+    </div>
+    <div id="whatsapp-window" style="display: none;">
+        <div class="title-bar">
+            <span class="title">WhatsApp</span>
+            <button onclick="closeWhatsApp()">X</button>
+        </div>
+        <div id="contacts" class="sidebar">
+            <div class="contact" onclick="showMessages('mama')">Mama</div>
+            <div class="contact" onclick="showMessages('Claudia')">Claudia</div>
+            <div class="contact" onclick="showMessages('babs')">Babs 1</div>
+            <div class="contact" onclick="showMessages('babs')">Babs 2</div>
+            <div class="contact" onclick="showMessages('philivey')">Phil Ivey 1</div>
+            <!-- <div class="contact" onclick="showMessages('Phil_Ivey_2')">Phil Ivey 2</div> -->
+        </div>
+        <div id="message-history" class="content">
+            <!-- Messages will be displayed here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
